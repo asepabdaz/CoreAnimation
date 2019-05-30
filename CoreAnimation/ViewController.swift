@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let myNewView = UIView(frame: CGRect(x: 100, y: 250, width: 200, height: 200))
 //        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tap))
         myNewView.backgroundColor = .blue
-        myNewView.layer.cornerRadius = 20
+        myNewView.layer.cornerRadius = 10
         
         
         view.addSubview(myNewView)
